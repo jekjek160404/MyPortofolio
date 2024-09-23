@@ -14,11 +14,9 @@ export default function Home() {
                         
                     </div>
                 </div>
-                <div className="md:w-1/2 border">
-                <img class="h-auto max-w-lg rounded-lg" src="/profil.png" alt="image description">
-                </img>
+               
                 </div>
-            </div>
+            
     </>
   );
 }
