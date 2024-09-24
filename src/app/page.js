@@ -11,7 +11,7 @@ export default function Home() {
         <div className="w-2/5">
         <Image
           src="/profil.png"
-          alt="fotojek655"
+          alt="fotojek"
           priority
         />
             </div>
