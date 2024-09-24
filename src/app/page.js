@@ -4,7 +4,7 @@ export default function Home() {
     <>
       <div className="">
         <h1 className="mt-24 text-6xl font-sans md:Apple Color Emoji">Hi, </h1>
-        <h1 className=" text-6xl font-sans md:Apple Color Emoji text-blue-600/100 " > I'am Ahmad Zaki </h1>
+        <h1 className=" text-6xl font-sans md:Apple Color Emoji text-blue-600/100 " > I am Ahmad Zaki </h1>
         <h1 className=" text-6xl font-sans md:Apple Color Emoji" >Data Analyst</h1>
         <div className="flex-flex-wrap">
         <Image
