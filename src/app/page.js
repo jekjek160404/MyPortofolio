@@ -1,4 +1,4 @@
-import Image from "next/image";
+255import Image from "next/image";
 export default function Home() {
   return (
     <>
@@ -10,11 +10,8 @@ export default function Home() {
      </div>
         <div className="w-2/5">
         <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
           src="/profil.png"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
+          alt="fotojek655"
           priority
         />
             </div>
