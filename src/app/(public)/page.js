@@ -8,7 +8,11 @@ export default function Home() {
         <h1 className=" text-6xl font-sans md:Apple Color Emoji" >Data Analyst</h1>
      </div>
         <div className="w-2/5">
-        <img src="/react.png"></img>
+        <Image
+          src="/profil.png"
+          alt="fotojek"
+          priority
+        />
             </div>
      
         <div>

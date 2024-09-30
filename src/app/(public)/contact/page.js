@@ -81,7 +81,7 @@ export default function Contact(){
 
                 {
                     !isLoading && Object.keys(data.social).map(key => {
-                       return <ItemCard label={key} value={data.social[key]}/>
+                       return <ItemCard label={key} value={data.social[key]} key={key}/>
                     })
                 }
                 
