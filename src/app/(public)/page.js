@@ -12,6 +12,8 @@ export default function Home() {
         <Image
           src="/profil.png"
           alt="fotojek"
+          width={10}
+          height={10}
           priority
         />
             </div>
