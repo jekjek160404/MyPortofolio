@@ -10,29 +10,31 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-      <div className={inter.className}>
-        <header className="py-2 bg-white">
-          <nav className="w-full">
-            <div className="max-w-5xl mx-auto px-6 md:px-12 xl:px-6">
-              <div className="flex flex-wrap items-center justify-between">
-                <div>
-                  <a href="/admin">Admin Portal</a>
-                </div>
-                <div>
-                  <ul className="flex flex-row gap-6">
-                    <li>
-                      <a href="/admin/work">Work</a>
-                    </li>
-                    
-                  </ul>
-                </div>
+    <div className={inter.className}>
+      <header className="py-2 bg-white">
+        <nav className="w-full">
+          <div className="max-w-5xl mx-auto px-6 md:px-12 xl:px-6">
+            <div className="flex flex-wrap items-center justify-between">
+              <div>
+                <a href="/admin">Admin Portal</a>
+              </div>
+              <div>
+                <ul className="flex flex-row gap-6">
+                  <li>
+                    <a href="/admin/work">Work</a>
+                  </li>
+                  <li>
+                    <a href="/admin/messages">Messages</a>
+                  </li>
+                </ul>
               </div>
             </div>
-          </nav>
-        </header>
-        <main className="pt-5 max-w-5xl mx-auto px-6 md:px-12 xl:px-6"> 
-          {children} 
-        </main>
-     </div>
+          </div>
+        </nav>
+      </header>
+      <main className="pt-5 max-w-5xl mx-auto px-6 md:px-12 xl:px-6">
+        {children}
+      </main>
+    </div>
   );
 }
